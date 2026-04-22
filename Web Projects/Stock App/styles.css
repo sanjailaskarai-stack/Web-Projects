@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #b36cff, #ffb347);
+}
+
+.outer {
+  padding: 25px;
+  background: #2f2f2f;
+  border-radius: 12px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  min-width: 260px;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#price-icon {
+  width: 18px;
+  height: 18px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>ScoreCard</title>
+</head>
+<body>
+  <div id="content">
+    <div id="home">
+      <h3>HOME</h3>
+      <h1 id="score-home">0</h1>
+      <div id="score-home-btn">
+         <button class="btn" onclick="oneBasketHome()">+1</button>
+         <button class="btn" onclick="twoBasketHome()">+2</button>
+         <button class="btn" onclick="threeBasketHome()">+3</button>
+      </div>
+    </div>
+    <div id="away">
+      <h3>AWAY</h3>
+      <h1 id="score-away">0</h1>
+      <div id="score-away-btn">
+         <button class="btn" onclick="oneBasketAway()">+1</button>
+         <button class="btn" onclick="twoBasketAway()">+2</button>
+         <button class="btn" onclick="threeBasketAway()">+3</button>
+      </div>
+    </div>
+     <div id="footer">
+      <button class="btn" onclick="reset()">Reset</button>
+     </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
